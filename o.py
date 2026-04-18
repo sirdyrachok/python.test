@@ -88,6 +88,9 @@ remove_button = tk.Button(
 )
 remove_button.pack(pady=5)
 
+a=tk.Label(root, text="KI")
+a.pack()
+
 # Обновляем Listbox при запуске (показываем загруженные задачи)
 update_listbox()
 
